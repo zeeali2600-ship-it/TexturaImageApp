@@ -1,4 +1,4 @@
-# Ignore build artifacts (jab local project banega)
+# Build artifacts
 bin/
 obj/
 .vs/
@@ -6,3 +6,18 @@ obj/
 *.suo
 *.log
 *.cache
+
+# User settings and temporary files
+user_settings.json
+*.tmp
+temp/
+
+# Package outputs
+*.msix
+*.appx
+AppPackages/
+
+# Visual Studio
+.vscode/
+*.swp
+*.swo
